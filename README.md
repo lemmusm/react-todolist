@@ -1,3 +1,3 @@
 ## To Do List App
 
-![Todolist App](https://i.imgur.com/ohFa5uP.png)
+![Todolist App](https://i.imgur.com/0fFbioM.png)
