@@ -13,12 +13,10 @@ import {
 const TaskList = ({ tasks, tasksCheck, tasksUncheck, taskDelete }) => {
   return (
     <>
-      <div className="card-header-tab card-header">
-        <h1 className="card-header-title font-size-lg text-capitalize font-weight-normal mb-5">
-          <FontAwesomeIcon icon={faTasks} />
-          &nbsp; Task List
-        </h1>
-      </div>
+      <h1 className="card-header-title font-size-lg text-capitalize font-weight-normal mb-5">
+        <FontAwesomeIcon icon={faTasks} />
+        &nbsp; Task List
+      </h1>
       <ListGroup className="listg">
         {tasks.map((task, index) => (
           <ListGroup.Item
